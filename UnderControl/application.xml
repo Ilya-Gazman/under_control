@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/14.0">
+  <id>com.gazman.under.control</id>
+  <versionNumber>1.0</versionNumber>
+  <supportedProfiles>mobileDevice</supportedProfiles>
+  <filename>Under_Control</filename>
+  <name>Under Control</name>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-feature android:required="true" android:name="android.hardware.touchscreen.multitouch" />
+</manifest>]]></manifestAdditions>
+  </android>
+  <iPhone>
+    <InfoAdditions><![CDATA[<key>UIStatusBarStyle</key>
+<string>UIStatusBarStyleBlackOpaque</string>
+<key>UIRequiresPersistentWiFi</key>
+<string>NO</string>
+<key>UIPrerenderedIcon</key>
+<true />
+<key>UIApplicationExitsOnSuspend</key>
+<true />
+<key>UIDeviceFamily</key>
+<array>
+	<!-- iPhone support -->
+	<string>1</string>
+	<!-- iPad support -->
+	<!--<string>2</string>-->
+</array>]]></InfoAdditions>
+    <requestedDisplayResolution>high</requestedDisplayResolution>
+  </iPhone>
+  <initialWindow>
+    <title>Under Control</title>
+    <content>StrategyOfBattle.swf</content>
+    <visible>true</visible>
+    <fullScreen>true</fullScreen>
+    <!--<autoOrients>false</autoOrients>-->
+    <!--<aspectRatio>landscape</aspectRatio>-->
+    <renderMode>direct</renderMode>
+    <!--<depthAndStencil>true</depthAndStencil>-->
+    <!-- required for 3D -->
+    <systemChrome>standard</systemChrome>
+    <aspectRatio>landscape</aspectRatio>
+    <autoOrients>false</autoOrients>
+  </initialWindow>
+  <icon>
+    <image48x48>icons/StrategyOfBattle48.png</image48x48>
+    <image72x72>icons/StrategyOfBattle72.png</image72x72>
+    <image96x96>icons/icon_96.png</image96x96>
+    <image144x144>icons/StrategyOfBattle144.png</image144x144>
+    <!--<image512x512>icons/icon_512.png</image512x512>-->
+    <image36x36>icons/Under_Control36.png</image36x36>
+    <image512x512>icons/StrategyOfBattle512.png</image512x512>
+  </icon>
+  <!-- 
+	AIR options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	
+	AIR mobile options:
+	http://help.adobe.com/en_US/air/build/WSfffb011ac560372f-5d0f4f25128cc9cd0cb-7ffe.html
+	
+	iOS icons guidelines:
+	http://developer.apple.com/library/ios/#documentation/userexperience/conceptual/mobilehig/IconsImages/IconsImages.html
+	
+	Android manifest documentation:
+	http://developer.android.com/guide/topics/manifest/manifest-intro.html
+	-->
+  <description>Its you, its your troops and the others...
+You have just one task: STAY ALIVE!</description>
+  <copyright>Gazman-SDK</copyright>
+  <versionLabel>1</versionLabel>
+</application>

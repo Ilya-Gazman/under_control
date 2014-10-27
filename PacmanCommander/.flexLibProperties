@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.gazman.strategy_of_battle.alien.AlienPackage"/>
+    <classEntry path="com.gazman.strategy_of_battle.alien.Fighter"/>
+    <classEntry path="com.gazman.strategy_of_battle.alien.Shaman"/>
+    <classEntry path="com.gazman.strategy_of_battle.alien.AlienCommander"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

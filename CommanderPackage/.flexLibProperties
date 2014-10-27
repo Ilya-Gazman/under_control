@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="com.gazman.strategy_of_battle_package.CommanderPackage"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.IUnitController"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.ICommanderController"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.map.Map"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.enums.UnitEnum"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.data.Action"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.enums.DirectionEnum"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.enums.ActionEnum"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.errors.NotImplementedError"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.data.UnitStates"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.data.TurnData"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.map.Cell"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.map.MapFilter"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.map.MapUtils"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.communication.CommunicationBridge"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.resources.ResourcesPackage"/>
+    <classEntry path="com.gazman.strategy_of_battle_package.units.BaseUnit"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

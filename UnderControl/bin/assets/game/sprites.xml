@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="sprites.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="ball.png"	x="0"	y="1691"	width="150"	height="149" frameX="-0" frameY="-0" frameWidth="150" frameHeight="149"/>
+	<SubTexture name="house.jpg"	x="151"	y="1691"	width="150"	height="103" frameX="-0" frameY="-0" frameWidth="150" frameHeight="103"/>
+	<SubTexture name="menu.png"	x="0"	y="769"	width="1270"	height="921" frameX="-7" frameY="-0" frameWidth="1280" frameHeight="921"/>
+	<SubTexture name="monkey.png"	x="151"	y="1795"	width="120"	height="98" frameX="-0" frameY="-0" frameWidth="120" frameHeight="98"/>
+	<SubTexture name="pacman_commander.png"	x="151"	y="1894"	width="98"	height="85" frameX="-0" frameY="-0" frameWidth="99" frameHeight="86"/>
+	<SubTexture name="pacman_cowboy.png"	x="0"	y="1992"	width="40"	height="41" frameX="-0" frameY="-0" frameWidth="40" frameHeight="41"/>
+	<SubTexture name="pacman_ninja.png"	x="82"	y="1992"	width="40"	height="42" frameX="-0" frameY="-0" frameWidth="40" frameHeight="42"/>
+	<SubTexture name="pacman_nurse.png"	x="41"	y="1992"	width="40"	height="42" frameX="-0" frameY="-0" frameWidth="40" frameHeight="42"/>
+	<SubTexture name="penguin.png"	x="0"	y="1841"	width="150"	height="150" frameX="-0" frameY="-0" frameWidth="150" frameHeight="150"/>
+	<SubTexture name="preloader.jpg"	x="0"	y="0"	width="1280"	height="768" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="768"/>
+	<SubTexture name="sheep.png"	x="1271"	y="1160"	width="364"	height="390" frameX="-0" frameY="-0" frameWidth="364" frameHeight="390"/>
+	<SubTexture name="won.png"	x="1271"	y="769"	width="550"	height="390" frameX="-0" frameY="-0" frameWidth="550" frameHeight="390"/>
+</TextureAtlas>
